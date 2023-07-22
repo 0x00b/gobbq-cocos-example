@@ -2,7 +2,7 @@
 import Long from "long";
 import _m0 from "protobufjs/minimal";
 
-export const protobufPackage = "exampb";
+export const protobufPackage = "pb";
 
 export interface LoginRequest {
   Name: string;
@@ -108,7 +108,7 @@ export const LoginResponse = {
 export type examDefinition = typeof examDefinition;
 export const examDefinition = {
   name: "exam",
-  fullName: "exampb.exam",
+  fullName: "pb.exam",
   methods: {
     login: {
       name: "Login",

@@ -1,6 +1,6 @@
 syntax = "proto3";
-option go_package = "github.com/0x00b/gobbq/example/exampb;exampb";
-package exampb;
+option go_package = "github.com/0x00b/gobbq-cocos-example/pb;pb";
+package pb;
 
 import "bbq.proto";
 // import "google/protobuf/empty.proto";

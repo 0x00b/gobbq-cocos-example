@@ -13,7 +13,7 @@ import { LoginResponse } from "./exam"
 // ExamService
 export type ExamServiceDefinition = typeof ExamServiceDefinition;
 export const ExamServiceDefinition = {
-  typeName: "exampb.ExamService",
+  typeName: "pb.ExamService",
   serviceType: ServiceType.Service, 
   methods: {
     Login: {

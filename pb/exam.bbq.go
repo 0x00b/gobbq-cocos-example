@@ -2,7 +2,7 @@
 // DON'T EDIT IT!!
 //  请勿添加其他内容，包括函数，结构体，变量等等，否则重新生成时会丢失。
 
-package exampb
+package pb
 
 import (
 	"time"
@@ -14,7 +14,9 @@ import (
 	"github.com/0x00b/gobbq/proto/bbq"
 	"github.com/0x00b/gobbq/tool/snowflake"
 	"github.com/0x00b/gobbq/xlog"
-	// exampb "github.com/0x00b/gobbq/example/exampb"
+
+	// pb "github.com/0x00b/gobbq-cocos-example/pb"
+
 )
 
 var _ = snowflake.GenUUID()
@@ -129,7 +131,7 @@ func _ExamService_Login_Handler(svc any, ctx entity.Context, in *LoginRequest, i
 
 	info := &entity.ServerInfo{
 		Server:     svc,
-		FullMethod: "/exampb.ExamService/Login",
+		FullMethod: "/pb.ExamService/Login",
 	}
 
 	handler := func(ctx entity.Context, rsp any) (any, error) {
@@ -210,7 +212,7 @@ func _ExamService_Login_Remote_Handler(svc any, ctx entity.Context, pkt *nets.Pa
 }
 
 var ExamServiceDesc = entity.EntityDesc{
-	TypeName:    "exampb.ExamService",
+	TypeName:    "pb.ExamService",
 	HandlerType: (*ExamService)(nil),
 	Methods: map[string]entity.MethodDesc{
 
