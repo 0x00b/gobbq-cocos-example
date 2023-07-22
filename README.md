@@ -1,1 +1,1 @@
-# gobbq-cocos-server-example
+# gobbq-cocos-example
